@@ -1,0 +1,19 @@
+Create table DIM_ADVERT
+(
+ ADVERT_KEY	            NUMBER(22)
+,AD_ID	                VARCHAR2(40)
+,PUB_VERSION	            VARCHAR2(4)
+,CLIPPER_VERSION	        NUMBER(22)
+,CUST_ACCNT_NUM	        VARCHAR2(40)
+,CONTRACT_NUM	        VARCHAR2(40)
+,BUNDLE_ID	            VARCHAR2(40)
+,NATIONAL_AD	            CHAR(1)
+,WHITEPAGE	            CHAR(1)
+,FIRST_PASS	            CHAR(1)
+,CANCELLED	            CHAR(1)
+,CURRENT_VERSION	        CHAR(1)
+,DELETED	                CHAR(1)
+,DELETE_REASON	        VARCHAR2(128)
+,BEGIN_EFFECTIVE_DATE	DATE
+,END_EFFECTIVE_DATE	    DATE
+);
